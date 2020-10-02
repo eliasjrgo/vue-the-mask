@@ -18,14 +18,14 @@ npm i -S vue-the-mask2
 ### Global
 
 ```javascript
-import VueTheMask from 'vue-the-mask'
-Vue.use(VueTheMask)
+import VueTheMask from 'vue-the-mask2'
+Vue.use(VueTheMask2)
 ```
 
 ### Local (inside the component)
 
 ```javascript
-import {TheMask} from 'vue-the-mask'
+import {TheMask} from 'vue-the-mask2'
 export default {
   components: {TheMask}
 }
@@ -34,7 +34,7 @@ export default {
 ### Local (as directive)
 
 ```javascript
-import {mask} from 'vue-the-mask'
+import {mask} from 'vue-the-mask2'
 export default {
   directives: {mask}
 }
