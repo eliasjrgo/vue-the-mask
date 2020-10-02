@@ -19,7 +19,7 @@ npm i -S vue-the-mask2
 
 ```javascript
 import VueTheMask from 'vue-the-mask2'
-Vue.use(VueTheMask2)
+Vue.use(VueTheMask)
 ```
 
 ### Local (inside the component)
